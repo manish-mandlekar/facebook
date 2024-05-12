@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+
+}
+#box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 30vmax;
+    height: 37vmax;
+    /* background-color: red; */
+    box-shadow: 0px 0px 8px 3px #dadada;
+}
+#one{
+    width: 100%;
+    height: 6vmax;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    
+    /* background-color: green; */
+}
+#one h1{
+    font-family: sans-serif;
+    font-size: 2vmax;
+}
+#one h1 span{
+    font-size: 1vmax;
+    margin-top: -10vmax;
+    font-family: sans-serif;
+    opacity: .7;
+    font-weight: 100;
+}
+#one i{
+    font-size: 2vmax;
+}
+#one a{
+    text-decoration: none;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #dadada;
+}
+#two{
+    width: 100%;
+    height: 4vmax;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+#two input{
+    width: 13.5vmax;
+    height: 3vmax;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    padding-left: 8px;
+
+}
+#two input::placeholder{
+    font-size: 1.1vmax;
+}
+#two input:focus{
+    outline: 1px solid rgb(20, 152, 223);
+}
+#four input:focus{
+    outline: 1px solid rgb(20, 152, 223);
+}
+#four{
+    width: 100%;
+    height: 4vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: red; */
+}
+#four input{
+    width: 29vmax;
+    height: 3vmax;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#three input:focus{
+    outline: 1px solid rgb(20, 152, 223);
+}
+#three{
+    width: 100%;
+    height: 4vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: red; */
+}
+#three input{
+    width: 29vmax;
+    height: 3vmax;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#five{
+    width: 100%;
+    height: 4vmax;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#five select{
+    width: 9vmax;
+    height: 2.5vmax;
+    font-size: 1vmax;
+}
+#box>h3{
+    opacity: .7;
+    font-weight: 100;
+    font-size: .9vmax;
+    padding-left: 10px;
+    margin-top: .6vmax;
+}
+#six{
+    width: 100%;
+    height: 4vmax;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#six .cl{
+    width: 9vmax;
+    height: 2.5vmax;
+    /* background-color: red; */
+    border: 1px solid #929090;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+    border-radius: 5px;
+}
+#box h6{
+    padding: 0 10px;
+    opacity: .5;
+    
+
+}
+#box #green{
+    width: 50%;
+  height: 3vmax;
+  border-radius: 6px;
+  font-size: 1vmax;
+  font-weight: 700;
+  margin-top: 1vmax;
+  margin-left: 7vmax;
+  padding: 0 1vmax;
+  border: none;
+  color: white;
+  background-color: #42b72a;
+}

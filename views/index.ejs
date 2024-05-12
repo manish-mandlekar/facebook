@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div id="main">
+      <div id="m-box">
+        <div id="left">
+          <h1>facebook</h1>
+          <h5>Facebook helps you connect and share <br> with the people in your life.</h5>
+        </div>
+        <div id="right">
+          <div id="whi">
+            <form method="post" action="/login">
+              <input type="text" required name="username" placeholder="Email address or phone number">
+              <input type="password" required name="password" placeholder="password">
+              <button type="submit" id="blue">Log in</button>
+              <a href="/forgot"><h4>Forgotten password?</h4></a>
+              <div class="line"></div>
+              <a href="/account"><button type="button" id="green">Create new account</button></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
